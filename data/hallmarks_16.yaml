@@ -1,0 +1,28 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./train/images/  # 118287 images
+val: ./valid/images/  # 5000 images
+test: ./test/images/  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 16
+
+# class names
+names: [
+    'sheffield',
+    'sterling',
+    'date',
+    'maker',
+    'george_3',
+    'london',
+    'chester',
+    'birmingham',
+    'edinbourgh_sterling',
+    'edinbourgh',
+    'dublin_sterling',
+    'dublin',
+    'victoria',
+    'glasgow',
+    'glasgow_sterling',
+    'george_4',
+    'exeter'
+]
